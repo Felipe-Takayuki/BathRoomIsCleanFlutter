@@ -37163,7 +37163,7 @@ A.i6.prototype={
 ad(){return new A.Gr(B.k)}}
 A.Gr.prototype={
 O(a){var s,r=null,q=this.a,p=q.d*2/100,o=q.c
-o=A.h4(r,A.cR(A.br(q.e,A.bw().$2$fontSize$fontWeight(o*1.5/100,B.w)),r,r),r,B.wl,100,r,new A.as(p,p,p,p),o*80/100)
+o=A.h4(r,A.cR(A.br(q.e,A.bw().$2$fontSize$fontWeight(o*1.5/100,B.w)),r,r),r,B.wl,140,r,new A.as(p,p,p,p),o*80/100)
 p=this.a
 q=p.c
 s=p.d
