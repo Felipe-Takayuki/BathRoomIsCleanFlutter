@@ -63,6 +63,18 @@ class _ContactPageState extends State<ContactPage> {
               ],
             ),
           ),
+
+          Padding(
+            padding: EdgeInsets.only(left: mediaquery.height * 10/100),
+            child: DescWidget(title: "Código", 
+            desc: InkWell(
+                                 onTap: () => launchUrlString("https://github.com/Felipe-Takayuki/BathRoomIsCleanFlutter/tree/bathroomisclean"),
+                                 child: Text("código no github", style: GoogleFonts.jetBrainsMono(
+                                  fontSize: mediaquery.height * 3/100,
+                                  decoration: TextDecoration.underline
+                                 ),),
+                               ), ),
+          )
         ],
       ),
     );
