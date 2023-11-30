@@ -13,3 +13,4 @@ Expor as dificuldades dos estudantes ao utilizar o banheiro por meio de pesquisa
 - Coletamos evidências;
 - Apresentamos os resultados obtidos em sala de aula;
 - Site sendo desenvolvido.
+- Site concluído 30/11/2023 ✅
