@@ -25,7 +25,8 @@ class _CardSurveyWidgetState extends State<CardSurveyWidget> {
           padding: EdgeInsets.all(widget.height * 2/100),
           width: widget.width * 80/100,
           height: 140,
-          child: Center(
+          child: Align(
+            alignment: Alignment.centerLeft,
             child: Text(widget.quest, style: GoogleFonts.jetBrainsMono(
               fontSize: widget.width * 1.5/100,
               fontWeight: FontWeight.w500
