@@ -7,5 +7,6 @@ class ImagesSite{
   static String banheiroImage1 = "assets/images/banheiro1.png";
   static String banheiroImage2 = "assets/images/banheiro2.png";
   static String banheiroImage3 = "assets/images/banheiro3.png";
- 
+  static String figurinhaEduardo = "assets/images/figurinhaEduardo1.png";
+  static String figurinhaEduardo1 = "assets/images/figurinhaEduardo.png";
 }

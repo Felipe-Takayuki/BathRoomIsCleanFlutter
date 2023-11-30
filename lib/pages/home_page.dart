@@ -1,5 +1,6 @@
 
 import 'package:bathroomiscleanflutter/utilities/colors.dart';
+import 'package:bathroomiscleanflutter/utilities/images.dart';
 import 'package:bathroomiscleanflutter/widgets/appbar_widget.dart';
 import 'package:bathroomiscleanflutter/widgets/button_pgroute_widget.dart';
 import 'package:bathroomiscleanflutter/widgets/desc_widget.dart';
@@ -43,7 +44,31 @@ class _HomePageState extends State<HomePage> {
                     ),
                   )),
 
-                
+                  SizedBox(
+                    height: mediaquery.height * 20/100,
+                  ),
+                  GestureDetector(
+                    onTap: ()=>  showDialog<String>(
+        context: context,
+        builder: (BuildContext context) => AlertDialog(
+          backgroundColor:Color.fromARGB(235, 210, 208, 208),
+          content: Row(
+            children: [
+              Image.asset(ImagesSite.figurinhaEduardo, width: mediaquery.width * 12/100,),
+              SizedBox(width: mediaquery.width * 2/100,),
+              Image.asset(ImagesSite.figurinhaEduardo1, width: mediaquery.width * 12/100,)
+            ],
+          ),
+          actions: <Widget>[
+           
+            TextButton(
+              onPressed: () => Navigator.pop(context, 'OK'),
+              child: Text('hmmmmmmmm...', style: GoogleFonts.jetBrainsMono(fontSize: mediaquery.height * 7/100, fontWeight: FontWeight.w900, color: Colors.black87, fontStyle: FontStyle.italic, decorationStyle: TextDecorationStyle.solid, ),),
+            ),
+          ],
+        ),
+      ),
+                    child: Image.asset(ImagesSite.toiletImage, width: mediaquery.width * 1.5/100,))
                ],
              )),
             
@@ -52,4 +77,5 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
 
