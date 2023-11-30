@@ -217,7 +217,7 @@ class _SurveysPageState extends State<SurveysPage> {
                                   const Spacer(),
                                   Container(
                                     margin: EdgeInsets.only(top: mediaquery.height * 2/100),
-                                    padding: EdgeInsets.all(10),
+                                    padding: const EdgeInsets.all(10),
                                     color: const Color.fromRGBO(196, 191, 191, 1),
                                     height: mediaquery.height * 60/100,
                                     width: mediaquery.width * 75/100,
