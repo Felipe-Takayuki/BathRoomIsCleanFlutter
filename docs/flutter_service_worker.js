@@ -3,13 +3,15 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "7ca189ea8c47629c3615bca47fe33e40",
-"assets/AssetManifest.bin.json": "f55408abf42e41b393ecdd547053ab4c",
-"assets/AssetManifest.json": "26b2eb04e201b1d1324d907b9027739a",
+const RESOURCES = {"assets/AssetManifest.bin": "32da63bfb0fcb5120bf419c62ca6cee4",
+"assets/AssetManifest.bin.json": "3642c0b69aed05b8bf2cd831b05c2ead",
+"assets/AssetManifest.json": "668408056e389ef9d353188f156675e4",
 "assets/assets/images/banheiro.png": "413d70a031e9b22ddc7d7c67064cf1ef",
 "assets/assets/images/banheiro1.png": "c55edda7dd3f198960814705513de559",
 "assets/assets/images/banheiro2.png": "7166a03de3e9487278e872bb2d16e43c",
 "assets/assets/images/banheiro3.png": "95599a7a0bbffa623eb1b89ca9189db0",
+"assets/assets/images/figurinhaEduardo.png": "a3c9834c27b0b989de973c0a9ee9c10f",
+"assets/assets/images/figurinhaEduardo1.png": "a5fc7f26a5fe9a53be54f5e8ea0bbe00",
 "assets/assets/images/imagePrivada.png": "dc9d52a5159e9e7e2b4b44d1c6898cc7",
 "assets/assets/images/logo.png": "c6fb4b3a033073d585e438f06a1fda0d",
 "assets/assets/images/person.png": "7af7be28191a8058c3a315083de15c1c",
@@ -32,9 +34,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "7ca189ea8c47629c3615bca47fe33e40
 "icons/Icon-512.png": "6f6d0c63f6e6acbb5ad8d9996f40982b",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "964754b69532b4026ce84fca23f65d6b",
-"/": "964754b69532b4026ce84fca23f65d6b",
-"main.dart.js": "5ec2ebfe78e5292fb3161d0d0ce272f2",
+"index.html": "d7d8e24e638e5c583a9553eefd1879eb",
+"/": "d7d8e24e638e5c583a9553eefd1879eb",
+"main.dart.js": "3a6f1dbaba6269f3cc0def5c0ce31601",
 "manifest.json": "bfe91a1f5cc536a8ba5513df754874aa",
 "version.json": "1b4214055b0a9bf8b1c4a6a98d5e6eab"};
 // The application shell files that are downloaded before a service worker can

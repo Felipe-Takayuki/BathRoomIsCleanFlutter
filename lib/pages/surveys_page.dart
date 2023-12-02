@@ -1,3 +1,4 @@
+import 'package:bathroomiscleanflutter/pages/carrosel.dart';
 import 'package:bathroomiscleanflutter/utilities/colors.dart';
 import 'package:bathroomiscleanflutter/utilities/images.dart';
 import 'package:bathroomiscleanflutter/widgets/appbar_widget.dart';
@@ -5,6 +6,7 @@ import 'package:bathroomiscleanflutter/widgets/button_pgroute_widget.dart';
 import 'package:bathroomiscleanflutter/widgets/card_survey_widget.dart';
 import 'package:bathroomiscleanflutter/widgets/desc_widget.dart';
 import 'package:bathroomiscleanflutter/widgets/person_withnumber.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -18,9 +20,11 @@ class SurveysPage extends StatefulWidget {
 class _SurveysPageState extends State<SurveysPage> {
   @override
   Widget build(BuildContext context) {
+ 
+
     var mediaquery = MediaQuery.of(context).size;
     return Scaffold(
-        backgroundColor: ColorsSite.bgColorBody,
+      backgroundColor: ColorsSite.bgColorBody,
       appBar: AppBarWidget(
         height: mediaquery.height,
         width: mediaquery.width,
@@ -30,12 +34,14 @@ class _SurveysPageState extends State<SurveysPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
           ListButtonsWidget(height: mediaquery.height),
+          Center(child: CarroselComp(height: mediaquery.height, width: mediaquery.width)),
           Padding(
             padding:  EdgeInsets.all(mediaquery.width * 5/100),
             child: Column(
               
               children: [
-                DescWidget(title: "Como a pesquisa foi realizada?", 
+                DescWidget(
+                title: "Como a pesquisa foi realizada?", 
                 desc: SizedBox(
                 width: mediaquery.width * 40/100,
                 child: Text("A nossa pesquisa foi executada utilizando dados do formulário feito pelo grupo, tendo como público alvo os alunos da ETEC.", 
@@ -63,9 +69,10 @@ class _SurveysPageState extends State<SurveysPage> {
 
 
                     // PERGUNTA 1
-                      
+                        
                        Center(
-                         child: CardSurveyWidget(width: mediaquery.width, height: mediaquery.height * 50/100, 
+                         child: 
+                         CardSurveyWidget(width: mediaquery.width, height: mediaquery.height * 50/100, 
                          quest: "1. Como você classifica a limpeza do banheiro durante o dia?",
                          survey:
                             Row(
@@ -78,7 +85,7 @@ class _SurveysPageState extends State<SurveysPage> {
                                   Row(
                                      mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                       
+                                        
                                     Image.asset(ImagesSite.starImage, width:  mediaquery.width * 5/100,),
                                   
                                   ],)
@@ -365,7 +372,6 @@ class _SurveysPageState extends State<SurveysPage> {
            
         ]),
       ),
-      
     );
   }
 }

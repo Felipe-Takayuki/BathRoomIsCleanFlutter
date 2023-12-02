@@ -12,7 +12,7 @@ class DescWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(title, style: GoogleFonts.jetBrainsMono(color: Colors.black, fontWeight: FontWeight.w700, fontSize: mediaquery.height * 5/100),),
-        desc
+       desc
       ],
     );
   }
