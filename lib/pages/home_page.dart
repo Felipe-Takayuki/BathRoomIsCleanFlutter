@@ -30,7 +30,6 @@ class _HomePageState extends State<HomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   DescWidget(
-                      height: mediaquery.height,
                       title: "Sobre",
                       desc: SizedBox(
                         width: mediaquery.width * 40 / 100,

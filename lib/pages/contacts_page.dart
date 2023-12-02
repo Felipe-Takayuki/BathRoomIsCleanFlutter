@@ -32,7 +32,6 @@ class _ContactPageState extends State<ContactPage> {
             child: Column(
               children: [
                 DescWidget(
-                  height: mediaquery.height,
                     title: "Trabalho feito por",
                     desc: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -74,7 +73,6 @@ class _ContactPageState extends State<ContactPage> {
           Padding(
             padding: EdgeInsets.only(left: mediaquery.height * 10 / 100),
             child: DescWidget(
-              height: mediaquery.height,
               title: "Código",
               desc: InkWell(
                 onTap: () => launchUrlString(

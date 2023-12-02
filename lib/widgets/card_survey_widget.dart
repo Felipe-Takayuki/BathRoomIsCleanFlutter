@@ -40,8 +40,10 @@ class _CardSurveyWidgetState extends State<CardSurveyWidget> {
           ),
         ),
         Container(
+         
           decoration: const BoxDecoration(
               color: Color.fromRGBO(161, 161, 161, 1),
+              
               borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(20),
                   bottomRight: Radius.circular(20))),
