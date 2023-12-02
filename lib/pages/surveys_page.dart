@@ -125,6 +125,7 @@ class _SurveysPageState extends State<SurveysPage> {
                             )
                           ],
                         ),
+                       
                         Column(
                           children: [
                             PersonWithNumberWidget(
@@ -239,7 +240,9 @@ class _SurveysPageState extends State<SurveysPage> {
                   ),
                 ),
 
-
+                     SizedBox(
+                  height: mediaquery.height * 4/100,
+                       ),
                 //  PERGUNTA 2
                 Center(
                   child: CardSurveyWidget(
@@ -370,6 +373,7 @@ class _SurveysPageState extends State<SurveysPage> {
                             alignment: Alignment.centerLeft,
                             child: Padding(
                               padding: EdgeInsets.only(
+                                  
                                   top: mediaquery.height * 2 / 100,
                                   left: mediaquery.width * 2 / 100),
                               child: Text(

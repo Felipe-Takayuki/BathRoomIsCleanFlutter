@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
                               fontWeight: FontWeight.w500),
                         ),
                       )),
-                
+                        SizedBox(height: mediaquery.height * 20/100,),
                   GestureDetector(
                       onTap: () => showDialog<String>(
                             context: context,

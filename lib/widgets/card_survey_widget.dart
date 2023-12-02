@@ -45,7 +45,7 @@ class _CardSurveyWidgetState extends State<CardSurveyWidget> {
               borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(20),
                   bottomRight: Radius.circular(20))),
-          width: widget.width * 78 / 100,
+          width: widget.width * 75 / 100,
           height: widget.height,
           child: Center(child: widget.survey),
         ),

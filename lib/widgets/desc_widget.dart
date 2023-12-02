@@ -8,21 +8,18 @@ class DescWidget extends StatelessWidget {
   final double height;
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.only(bottom: height * 10/100),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            title,
-            style: GoogleFonts.jetBrainsMono(
-                color: Colors.black,
-                fontWeight: FontWeight.w700,
-                fontSize: height * 5 / 100),
-          ),
-          desc
-        ],
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          title,
+          style: GoogleFonts.jetBrainsMono(
+              color: Colors.black,
+              fontWeight: FontWeight.w700,
+              fontSize: height * 5 / 100),
+        ),
+        desc
+      ],
     );
   }
 }
