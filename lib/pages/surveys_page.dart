@@ -1,3 +1,4 @@
+import 'package:bathroomiscleanflutter/pages/carrosel.dart';
 import 'package:bathroomiscleanflutter/utilities/colors.dart';
 import 'package:bathroomiscleanflutter/utilities/images.dart';
 import 'package:bathroomiscleanflutter/widgets/appbar_widget.dart';
@@ -5,7 +6,7 @@ import 'package:bathroomiscleanflutter/widgets/button_pgroute_widget.dart';
 import 'package:bathroomiscleanflutter/widgets/card_survey_widget.dart';
 import 'package:bathroomiscleanflutter/widgets/desc_widget.dart';
 import 'package:bathroomiscleanflutter/widgets/person_withnumber.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -19,12 +20,7 @@ class SurveysPage extends StatefulWidget {
 class _SurveysPageState extends State<SurveysPage> {
   @override
   Widget build(BuildContext context) {
-    List<String> list = [
-      ImagesSite.banheiroImage,
-      ImagesSite.banheiroImage1,
-      ImagesSite.banheiroImage2,
-      ImagesSite.banheiroImage3
-    ];
+ 
 
     var mediaquery = MediaQuery.of(context).size;
     return Scaffold(
@@ -38,6 +34,7 @@ class _SurveysPageState extends State<SurveysPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
           ListButtonsWidget(height: mediaquery.height),
+          Center(child: CarroselComp(height: mediaquery.height, width: mediaquery.width)),
           Padding(
             padding:  EdgeInsets.all(mediaquery.width * 5/100),
             child: Column(
