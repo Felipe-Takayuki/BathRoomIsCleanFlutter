@@ -75,7 +75,7 @@ class _Quest5State extends State<Quest5> {
                                         '“Conscientização de que o uso do banheiro é para todos e não devemos quebrar o que será usado”',
                                         style: GoogleFonts.jetBrainsMono(
                                             fontSize:
-                                                widget.height * 4 / 100),
+                                                widget.width * 2 / 100),
                                       ),
                                       SizedBox(
                                         height: widget.height * 5 / 100,
