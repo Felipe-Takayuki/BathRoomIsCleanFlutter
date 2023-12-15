@@ -7,6 +7,7 @@ Esta é uma atividade proposta pela professora que propõe a identificação de 
 
 Expor as dificuldades dos estudantes ao utilizar o banheiro por meio de pesquisas realizadas no meio. 
 (obs: Este trabalho NÃO TEM COMO OBJETIVO CRITICAR OU CULPAR OS RESPONSÁVEIS PELA LIMPEZA).
+
 ## Etapas do projeto
 
 - Realizamos pesquisas através de formulários;
